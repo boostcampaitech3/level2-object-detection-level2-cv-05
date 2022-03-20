@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shin/Documents/Github/mmdetection/mlruns/1/dd8bf4c7ea3b44978b2f8014607ce3ea/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: dd8bf4c7ea3b44978b2f8014607ce3ea
+run_uuid: dd8bf4c7ea3b44978b2f8014607ce3ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1647792479819
+status: 1
+tags: []
+user_id: shin

@@ -1,0 +1,4 @@
+artifact_location: file:///home/shin/Documents/Github/mmdetection/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: test
