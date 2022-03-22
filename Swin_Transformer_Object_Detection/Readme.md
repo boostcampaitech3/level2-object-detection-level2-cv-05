@@ -9,8 +9,21 @@
 ## **Setup for running**
 * 본 Repository는 mmdetection과 다른 버전의 동일한 package를 사용하기 때문에 다른 환경에서 설치하는것을 권장합니다
 
-### **필수 Package 설치**
+### **가상환경 생성**
+```bash
+conda create -n [env name] --clone detection
+conda activate [env name]
 ```
+* avtivate 에서 init하라는 에러가 발생할 경우
+```bash
+# root에서 시작
+conda init -all
+source ./.zshrc
+conda activate [env name]
+```
+
+### **필수 Package 설치**
+```bash
 git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.git
 cd Swin-Transformer-Object-Detection
 pip install -r requirements/build.txt
@@ -19,10 +32,10 @@ pip install -v -e .
 
 ### **(Optional) For using EpochBasedRunnerAmp**
 * Nvidia Apex 설치
-```
+```bash
 git clone https://github.com/NVIDIA/apex
 cd apex
-pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+pip install -v --disable-pip-version-check --no-cache-dir ./
 ```
 
 ### **Swin Transformer ImageNet Pretrained Model**
