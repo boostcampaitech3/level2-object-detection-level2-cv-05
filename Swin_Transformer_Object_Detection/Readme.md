@@ -17,7 +17,7 @@ conda activate [env name]
 * avtivate 에서 init하라는 에러가 발생할 경우
 ```bash
 # root에서 시작
-conda init -all
+conda init --all
 source ./.zshrc
 conda activate [env name]
 ```
@@ -28,6 +28,7 @@ git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.g
 cd Swin-Transformer-Object-Detection
 pip install -r requirements/build.txt
 pip install -v -e .
+pip install mmcv==1.4.0
 ```
 
 ### **(Optional) For using EpochBasedRunnerAmp**
