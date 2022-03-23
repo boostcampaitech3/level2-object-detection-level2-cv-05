@@ -1,3 +1,4 @@
+# 참고 : https://dacon.io/codeshare/1773
 import json
 import os
 import random
