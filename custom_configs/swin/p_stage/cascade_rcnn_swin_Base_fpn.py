@@ -20,6 +20,21 @@ model = dict(
 )
 
 runner = dict(max_epochs=12)
+log_config = dict(
+    interval=50,
+    hooks=[
+        dict(type='TextLoggerHook'),
+        dict(type='MlflowLoggerHook',
+             exp_name='swin_base_224_CIoU',
+             tags=dict(
+                 epochs=12,
+                 optim='AdamW',
+                 bbox_loss='CIoU',
+                 rpn_loss='LabelSmoothing'
+             ),
+             )
+    ]
+)
 work_dir = './work_dirs/swin/base_224'
 seed = 2022
 gpu_ids = 0

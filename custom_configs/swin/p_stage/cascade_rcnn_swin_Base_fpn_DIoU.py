@@ -89,6 +89,7 @@ model = dict(
 )
 
 runner = dict(max_epochs=12)
+classwise = True
 log_config = dict(
     interval=50,
     hooks=[
