@@ -1,4 +1,4 @@
-evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP_50')
+evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP_50', classwise=True)
 checkpoint_config = dict(max_keep_ckpts=2, interval=1)
 log_config = dict(
     interval=50,
