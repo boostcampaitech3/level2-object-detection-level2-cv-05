@@ -19,3 +19,27 @@ python multilabel_Kfolds.py --path [파일을 저장할 위치] --n_split [n-fol
 
 ## 5. Compute mean std
 * dataset의 pixel mean과 std를 계산하는 notebook file
+
+## 6. label_clensing
+* coco-annotator로 만든 label 데이터의 image, annotation id를 재정렬하고 index를 0번부터 시작하도록 재설정하는 파일
+```
+python label_cleansing.py [json_file] [new json file]
+```
+
+## 7. Augmentation for Oversampling
+* Oversampling을 위한 image generate 파일
+```
+python crop_box_make_patch.py [json file] --middle-range [MIDDLE] --small-ratio [SMALL RATIO] --middle-ratio [MIDDLE RATIO] --eps [epsilon] --name [DIR NAME]
+```
+* json file : oversampling할 label 파일
+* MIDDLE : middle box의 area 범위, Default : 10000
+* SMALL RATIO : small box의 oversampling 배수 parameter
+* MIDDLE RATIO : middle box의 oversampling 배수 parameter
+* epsilon : 다양한 background 이미지를 위한 random 오차
+* name : 생성한 이미지를 저장할 폴더
+
+총 Oversampling할 box는 아래와 같이 연산됨
+
+Patch Labels = SMALL RATIO * small boxs + MIDDLE RATIO * middle boxs
+ 
+여기서 7~20개 random sampling을 통해서 임의의 이미지를 생성
