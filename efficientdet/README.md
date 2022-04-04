@@ -26,11 +26,12 @@ pip install -v -e .
 ### **categories & annotations 수정**
 대회 데이터의 label은 0-9까지. 코드 내 label은 1-10    
 따라서, 대회에서 제공된 categories과 annotations내 label값을 +1 시켜주었다.  
-* [Modify Label](./modify_label.ipynb)     
+* [Modify Label](./modify_label.ipynb)      
+
 실행 후 ) eff_train.json & eff_test.json 생성 
 
 ### ***적용할 json 파일 변경***  
-사용데이터 coco 2017. 따라서 /efficientdet-pytorch/effdet/data/dataset_config.py파일의 해당 json파일 부분 수정 
+사용데이터 coco 2017. 따라서 effdet/data/dataset_config.py파일의 해당 json파일 부분 수정   
 
 ```bash  
 class Coco2017Cfg(CocoCfg):
@@ -72,10 +73,11 @@ python validate.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --dat
 
 ## **After treatment** 
 결과파일인 json파일을 -> 대회 제출 형식에 맞는 내용과 형식(csv)으로 변경 필요 
-* [Json to Csv](./submit.py)    
+* [Json to Csv](./submit.py)      
+
 실행은 efficientdet-pytorch 에서    
 ```bash  
-python submit.py
+python submit.py    
 ```   
 실행 후 ) submission.csv 생성
 
