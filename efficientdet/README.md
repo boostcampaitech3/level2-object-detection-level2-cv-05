@@ -15,6 +15,7 @@ conda create -n effdet --clone detection
 conda activate effdet
 
 ### **필수 Package 설치**
+실행은 baseline 에서  
 ```bash
 git clone https://github.com/rwightman/efficientdet-pytorch.git  
 cd efficientdet-pytorch  
