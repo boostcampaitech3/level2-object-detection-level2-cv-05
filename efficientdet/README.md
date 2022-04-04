@@ -83,3 +83,8 @@ python submit.py
 
 ## 추가 : inference 결과 시각화로 확인   
 * [Inference Visualization](./inference_viz.ipynb)   
+```bash
+python data_viz.py -d [test데이터경로] -a [annotation파일(.json)경로] -p [포트번호]   
+```   
+ex.   
+python data_viz.py -d /opt/ml/detection/dataset/test -a /opt/ml/detection/baseline/efficientdet-pytorch/csv_to_json.json -p 30004
