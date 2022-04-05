@@ -50,11 +50,9 @@ test=dict(ann_filename='./eff_test.json', img_dir='', has_labels=False)
 
 ## **Train** 
 실행은 efficientdet-pytorch 에서  
-```bash
-python train.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco -b 4 
---amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 
---num-classes 10 --tta 1 --pretrained 
-```  
+`
+python train.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco -b 4 --amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 --num-classes 10 --tta 1 --pretrained 
+`
 ex.  
 python train.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --dataset coco 
 -b 4 --amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 
@@ -62,11 +60,9 @@ python train.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --datase
 
 ## **Inference**
 실행은 efficientdet-pytorch 에서  
-```bash
-python validate.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco 
---split test --num-gpu 1 -b 1 --checkpoint [checkpoint 경로] --num-classes 10 
---results [결과 생성할 경로]  
-```   
+`
+python validate.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco --split test --num-gpu 1 -b 1 --checkpoint [checkpoint 경로] --num-classes 10 --results [결과 생성할 경로]  
+`   
 ex.  
 python validate.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --dataset coco 
 --split test --num-gpu 1 -b 1 --checkpoint /opt/ml/detection/baseline/efficientdet-pytorch/output/train/20220331-075919-tf_efficientdet_d4_ap/model_best.pth.tar 
