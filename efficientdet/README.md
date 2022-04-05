@@ -51,8 +51,8 @@ test=dict(ann_filename='./eff_test.json', img_dir='', has_labels=False)
 ## **Train** 
 실행은 efficientdet-pytorch 에서  
 `
-python train.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco -b 4 --amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 --num-classes 10 --tta 1 --pretrained 
-`
+python train.py [dataset 경로] --model tf_efficientdet_d4_ap --dataset coco -b 4 --amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 --num-classes 10 --tta 1 --pretrained   
+`     
 ex.  
 python train.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --dataset coco 
 -b 4 --amp --lr .008 --opt momentum --model-ema --model-ema-decay 0.9966 --epochs 70 
