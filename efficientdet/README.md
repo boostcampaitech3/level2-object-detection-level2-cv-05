@@ -19,7 +19,7 @@ conda activate effdet
 ```bash
 git clone https://github.com/rwightman/efficientdet-pytorch.git  
 cd efficientdet-pytorch  
-pip install -r requirements/build.txt
+pip install -r requirements.txt
 pip install -v -e .
 ```
 
