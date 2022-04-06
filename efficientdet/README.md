@@ -29,7 +29,7 @@ pip install -v -e .
 따라서, 대회에서 제공된 categories과 annotations내 label값을 +1 시켜주었다.  
 * [Modify Label](./modify_label.ipynb)      
 
-실행 후 ) eff_train.json & eff_test.json 생성 
+실행 후 ) eff_train.json & eff_val.json & eff_test.json 생성 
 
 ### ***적용할 json 파일 변경***  
 사용데이터 coco 2017. 따라서 effdet/data/dataset_config.py파일의 해당 json파일 부분 수정   
@@ -38,9 +38,9 @@ pip install -v -e .
 class Coco2017Cfg(CocoCfg):
     variant: str = '2017'
     splits: Dict[str, dict] = field(default_factory=lambda: dict(
-        train=dict(ann_filename=[train파일], img_dir='', has_labels=True),
-        val=dict(ann_filename=[val파일], img_dir='', has_labels=True),
-        test=dict(ann_filename=[test파일], img_dir='', has_labels=False)
+        train=dict(ann_filename=[train json파일], img_dir='', has_labels=True),
+        val=dict(ann_filename=[val json파일], img_dir='', has_labels=True),
+        test=dict(ann_filename=[test json파일], img_dir='', has_labels=False)
     ))
 ```
 ex.   
