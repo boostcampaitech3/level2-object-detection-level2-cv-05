@@ -2,7 +2,7 @@
 이 Repository는 EfficientDet-Pytorch을 기반으로 만들어졌습니다 (*현재 k-fold validation 미실시)  
 
 📗 [EfficientDet-Pytorch](https://github.com/rwightman/efficientdet-pytorch)   
-📙 [boostcampaitech2_EfficientDet-Pytorch](https://github.com/boostcampaitech2/object-detection-level2-cv-19/tree/jsg_effdet/efficientdet-pytorch)
+📙 Boostcamp AI Tech 3기 CV _ EfficientDet 강의자료 
 
 ## **Setup for running**
 ### **가상환경 생성**
