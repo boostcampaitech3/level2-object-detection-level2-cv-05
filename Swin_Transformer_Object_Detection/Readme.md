@@ -7,7 +7,7 @@
 :open_book: [Documentation](https://mmdetection.readthedocs.io/en/latest/)  
 
 ## **Setup for running**
-* 본 Repository는 mmdetection과 다른 버전의 동일한 package를 사용하기 때문에 다른 환경에서 설치하는것을 권장합니다
+* **본 Repository는 최신 버전이 아닌 mmdetection module을 사용하기 때문에 분리된 가상환경에서 작동시키는것을 권장합니다**
 
 ### **가상환경 생성**
 ```bash
