@@ -1,5 +1,5 @@
 # EfficientDet
-이 Repository는 EfficientDet-Pytorch을 기반으로 만들어졌습니다 (*현재 k-fold validation 미실시)  
+이 Repository는 EfficientDet-Pytorch을 기반으로 만들어졌습니다
 
 📗 [EfficientDet-Pytorch](https://github.com/rwightman/efficientdet-pytorch)   
 📙 Boostcamp AI Tech 3기 CV _ EfficientDet 강의자료 
