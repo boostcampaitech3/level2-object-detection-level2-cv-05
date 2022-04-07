@@ -27,7 +27,7 @@ pip install -v -e .
 ### **categories & annotations 수정**
 대회 데이터의 label은 0-9까지. 코드 내 label은 1-10    
 따라서, 대회에서 제공된 categories과 annotations내 label값을 +1 시켜주었다.  
-* [Modify Label](./modify_label.ipynb)      
+* [Modify Label](https://github.com/boostcampaitech3/level2-object-detection-level2-cv-05/blob/utils/utils/modify_label.py)      
 
 실행 후 ) eff_train.json & eff_val.json & eff_test.json 생성 
 
@@ -70,7 +70,7 @@ python validate.py /opt/ml/detection/dataset --model tf_efficientdet_d4_ap --dat
 
 ## **After treatment** 
 결과파일인 json파일을 -> 대회 제출 형식에 맞는 내용과 형식(csv)으로 변경 필요 
-* [Json to Csv](./submit.py)      
+* [Json to Csv](https://github.com/boostcampaitech3/level2-object-detection-level2-cv-05/blob/utils/utils/submit.py)      
 
 실행은 efficientdet-pytorch 에서    
 ```bash  
@@ -79,7 +79,7 @@ python submit.py
 실행 후 ) submission.csv 생성
 
 ## 추가 : inference 결과 시각화로 확인   
-* [Inference Visualization](./inference_viz.ipynb)   
+* [Inference Visualization](https://github.com/boostcampaitech3/level2-object-detection-level2-cv-05/blob/utils/utils/inference_viz.py)   
 ```bash
 python data_viz.py -d [test데이터경로] -a [annotation파일(.json)경로] -p [포트번호]   
 ```   
