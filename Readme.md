@@ -27,14 +27,16 @@ Convenience + insight
 # 2. Project Outline
 
 ### 데이터 전처리 CheckList
-- [ ] Data EDA
-- [ ] Data Argumentation
-- [ ] Multilabel Stratifiedkfold
+- [x] Data EDA
+- [x] Data Argumentation
+- [x] Multilabel Stratifiedkfold
+- [x] Oversampling
 ### 모델 
-- [ ] Cascade RCNN with Various Backbone
-- [ ] YOLO (v5, R, X)
-- [ ] Soft NMS
-- [ ] GIoU, DIoU, CIoU
+- [x] Cascade RCNN with Various Backbone
+- [x] YOLO (v5, R)
+- [x] Soft NMS, NMS
+- [x] GIoU, DIoU, CIoU
 ### Output 후처리
-- [ ] Ensemble (WBF)
+- [x] Ensemble (WBF)
 - [ ] Classfication
+- [x] tile
