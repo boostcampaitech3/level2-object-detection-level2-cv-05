@@ -1,0 +1,13 @@
+python train.py \
+--img 1024 \
+--batch 6 \
+--epochs 120 \
+--data data/trash.yaml \
+--hyp data/hyps/hyp.scratch-high.yaml \ # hyps 폴더 내에서 사용할 hyperparameter yaml 파일 지정 # augmentation 정도에 따라 high/medium/low 
+--optimizer SGD \
+--multi-scale \ # multi-scale 사용 유무 지정
+--cfg models/hub/yolov5x6.yaml \ # models 폴더 내에서 사용할 yolo 모델 yaml 파일 지정
+--weights yolov5x6.pt \ # pretrained model 사용 시 지정 
+--project [wandb project name] \
+--name [wandb runs name] \
+--entity [wandb id]
