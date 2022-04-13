@@ -1,7 +1,7 @@
 # [AI Tech 3기 Level 2 P Stage] Object Detection
 <img width="807" alt="화면 캡처 2022-04-13 200809" src="https://user-images.githubusercontent.com/90603530/163167628-4a440bd7-d974-449e-a05f-370d2cc1cfd8.png">
 
-# ConVinsight 🧑 💻
+# ConVinsight 🧑‍💻
 Convenience + insight : 이용자의 편의를 찾는 통찰력
 ## Member
 | 김나영 | 신규범 | 이정수 | 이현홍 | 전수민 |  
