@@ -2,14 +2,14 @@
 <img width="807" alt="화면 캡처 2022-04-13 200809" src="https://user-images.githubusercontent.com/90603530/163167628-4a440bd7-d974-449e-a05f-370d2cc1cfd8.png">
 
 # ConVinsight 🧑‍💻
-Convenience + insight : 이용자의 편의를 찾는 통찰력
+Convenience + Insight : 이용자의 편의를 찾는 통찰력
 ## Member
 | 김나영 | 신규범 | 이정수 | 이현홍 | 전수민 |  
 | :-: | :-: | :-: | :-: | :-: |  
 |[Github](https://github.com/dudskrla) | [Github](https://github.com/KyubumShin) | [Github](https://github.com/sw930718) | [Github](https://github.com/Heruing) | [Github](https://github.com/Su-minn) |
 
 ## Wrap Up Report 📑
-💻 [ConvinSight level2-object-detection Notion](https://yummy-angle-b95.notion.site/CV-05-Wrap-Up-Report-3b569e864aee4c3abe90a2a2e5c9b643)
+💻 [ConVinsight level2-object-detection Notion](https://yummy-angle-b95.notion.site/CV-05-Wrap-Up-Report-3b569e864aee4c3abe90a2a2e5c9b643)
 
 ## Final Score 🏆
 - Public mAP 0.7221 → Private mAP 0.7101
