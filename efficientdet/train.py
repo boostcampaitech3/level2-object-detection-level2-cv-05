@@ -303,7 +303,7 @@ def main():
 
     # wandb
     wandb.init(project="test-project", 
-            name="EfficientDet", entity = 'jeongsu912',)
+            name="EfficientDet", entity = 'wandb id',)
     wandb.watch(model, log_freq=100)
 
     if args.channels_last:
