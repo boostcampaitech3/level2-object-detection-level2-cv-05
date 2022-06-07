@@ -43,10 +43,6 @@ class Coco2017Cfg(CocoCfg):
         test=dict(ann_filename=[test json파일], img_dir='', has_labels=False)
     ))
 ```
-ex.   
-train=dict(ann_filename='./eff_train.json', img_dir='', has_labels=True),   
-val=dict(ann_filename='./eff_val.json', img_dir='', has_labels=True),   
-test=dict(ann_filename='./eff_test.json', img_dir='', has_labels=False)   
 
 ## **Train** 
 실행은 efficientdet-pytorch 에서  
