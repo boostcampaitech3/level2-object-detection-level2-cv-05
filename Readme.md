@@ -9,7 +9,8 @@ Convenience + Insight : 이용자의 편의를 찾는 통찰력
 |[Github](https://github.com/dudskrla) | [Github](https://github.com/KyubumShin) | [Github](https://github.com/sw930718) | [Github](https://github.com/Heruing) | [Github](https://github.com/Su-minn) |
 
 ## Wrap Up Report 📑
-💻 [ConVinsight level2-object-detection Notion](https://yummy-angle-b95.notion.site/CV-05-Wrap-Up-Report-3b569e864aee4c3abe90a2a2e5c9b643)
+💻 [Object Detection Wrap Up Report.pdf](https://github.com/boostcampaitech3/level2-object-detection-level2-cv-05/files/8851249/Object.Detection_CV_.05.pdf)
+
 
 ## Final Score 🏆
 - Public mAP 0.7221 → Private mAP 0.7101
